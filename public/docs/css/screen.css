@@ -1,13 +1,14 @@
-/* !Less */
 /* !Layout */
 html,
 body {
   height: 100%;
+  font-size: 1em;
 }
 body {
   margin: 0px 0px 100px 0px;
   padding: 0px;
   font-weight: 300;
+  color: #595959;
 }
 #wrapper {
   min-height: 100%;
@@ -15,44 +16,84 @@ body {
 }
 header {
   height: 70px;
-  background: url(../../images/light_noise_diagonal.png) top left;
-  background-color: #EEE;
+  background: #c0272d /*url('../../images/headerBg.jpg') repeat-x left top*/;
   padding-top: 30px;
   margin-bottom: 50px;
-  border-bottom: 1px solid #DDD;
+  position: relative;
+  z-index: 200;
 }
 .logo {
   text-indent: -10000px;
-  width: 250px;
-  height: 125px;
+  width: 6em;
+  height: 3em;
   display: block;
-  background: url(../../images/mdavisCourses-logo-white.png) top left no-repeat;
-  margin-top: -26px;
+  background: url('../../images/253Logo.svg') top left no-repeat;
+  margin-top: -33px;
+  -webkit-background-size: 6em 3em;
+  -moz-background-size: 6em 3em;
+  -o-background-size: 6em 3em;
+  background-size: 6em 3em;
 }
 div.container {
   width: 920px;
 }
 #intro {
-  background: url(../../images/light_noise_diagonal.png) top left;
+  background: #c0272d url('../../images/introBg.jpg') top left;
   height: 250px;
   margin-top: -50px;
   margin-bottom: -10px;
   position: relative;
   z-index: 100;
   border-bottom: 1px solid #CCC;
-  outline: 1px solid #EEE;
 }
 #intro p.description {
   float: right;
   width: 540px;
   margin: 50px 0;
+  color: white;
+}
+h1,
+h2,
+h3 {
+  font-weight: 300;
 }
 h1 {
   margin: 0px;
   line-height: .8em;
   font-size: 3em;
   margin-top: -5px;
-  font-weight: 300;
+  color: #333;
+}
+div.col.seven h2 {
+  color: #333;
+  /*border-top: 1px solid #CCC;*/
+
+  border-bottom: 1px solid #CCC;
+  font-size: 1.5em;
+}
+div.col.seven h2:nth-child(n+6) {
+  margin-top: 50px;
+}
+div.col.seven p {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+div.col.seven ol,
+div.col.seven ul,
+div.col.seven p {
+  font-family: Merriweather, serif;
+  font-size: .9em;
+  line-height: 1.5em;
+}
+.keywords {
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.descriptionContent {
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 5px;
 }
 ul.project-list {
   width: 960px !important;
@@ -166,20 +207,6 @@ footer a {
   position: absolute;
   bottom: 20px;
 }
-#gallery-info {
-  width: 540px;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
-  border-top: 1px solid #CCC;
-  border-bottom: 1px solid #CCC;
-}
-#gallery-count {
-  float: left;
-}
-#gallery-navigation {
-  float: right;
-}
 hr.push {
   display: block;
   height: 300px;
@@ -188,7 +215,7 @@ hr.push {
   clear: both;
 }
 footer {
-  background: url(../../images/low_contrast_linen.png) top left;
+  background: url('../../images/darkdenim3.png') top left;
   clear: both;
   position: absolute;
   bottom: 0px;
@@ -200,6 +227,12 @@ footer {
   border-top: 1px solid #CCC;
   outline: 1px solid #EEE;
   color: #888;
+}
+#footerLogo {
+  background: url('../../images/mdavisCoursesFooterLogo.svg') no-repeat left top;
+  height: 150px;
+  width: 150px;
+  float: left;
 }
 /*
 	The .container background color rule
@@ -224,29 +257,29 @@ footer span.two {
 }
 /* !Colors */
 ::selection {
-  background-color: #4d90fe;
+  background-color: #c0272d;
   color: white;
 }
 a {
-  color: #4d90fe;
+  color: #c0272d;
   padding: 2px;
   margin: -2px;
 }
 a:hover {
   color: white;
-  background-color: #4d90fe;
+  background-color: #c0272d;
 }
 a.logo:hover {
   background-color: transparent;
 }
 header em a {
-  color: #AAA;
+  color: #47070c;
   padding: 5px;
   margin: 0px 20px 0px -5px;
 }
 header em a:hover {
   color: white;
-  background-color: #4d90fe;
+  background-color: #47070c;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -o-border-radius: 4px;
@@ -254,7 +287,7 @@ header em a:hover {
 }
 h1 a:hover {
   background-color: transparent;
-  color: #4d90fe;
+  color: #c0272d;
 }
 .description p {
   color: #888;
@@ -273,6 +306,8 @@ h1 a:hover {
 .credits {
   border-top: 1px solid #888;
   padding-top: 5px;
+  width: 210px;
+  float: right;
 }
 .credits a {
   color: #AAA;
@@ -281,7 +316,7 @@ h1 a:hover {
   color: white;
 }
 a.atom-rss {
-  background-color: #888;
+  background-color: #555;
   font-weight: bold;
   color: white;
   padding: 5px;
@@ -291,7 +326,7 @@ a.atom-rss {
   border-radius: 4px;
 }
 a.atom-rss:hover {
-  background-color: #4d90fe;
+  background-color: #c0272d;
 }
 /* !Backflip jQuery Carousel */
 .carousel {
@@ -344,19 +379,19 @@ a.atom-rss:hover {
   float: left;
 }
 .carousel-nav .carousel-next {
-  color: #4d90fe;
+  color: #c0272d;
   padding: 5px;
 }
 .carousel-nav .carousel-next:hover {
   color: white;
-  background-color: #4d90fe;
+  background-color: #c0272d;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
 }
 .carousel-nav .carousel-prev {
-  color: #4d90fe;
+  color: #c0272d;
   padding: 5px;
   border-right: 1px solid #999;
 }
@@ -365,7 +400,7 @@ a.atom-rss:hover {
 }
 .carousel-nav .carousel-prev:hover {
   color: white;
-  background-color: #4d90fe;
+  background-color: #c0272d;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -o-border-radius: 4px;
@@ -399,6 +434,13 @@ a.atom-rss:hover {
   width: 520px;
   background-color: #000000;
   background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.carousel-handles:hover {
+  opacity: 1;
 }
 .carousel-handles span {
   cursor: pointer;
@@ -416,7 +458,7 @@ a.atom-rss:hover {
   color: white;
   cursor: default;
   outline: none;
-  background-color: #4d90fe;
+  background-color: #c0272d;
   padding: 2px 5px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;

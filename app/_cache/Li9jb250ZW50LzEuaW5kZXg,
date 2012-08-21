@@ -29,6 +29,8 @@
   
       <a href="./?/contact/">Contact</a>
   
+      <a href="./?/index/">Home</a>
+  
 </em></p>
 				
 			</div>
@@ -145,7 +147,7 @@
     </ul>
     </div>
    
-    
+     
 			</div>
 		
 		<hr class="push">	
@@ -213,7 +215,7 @@
     
     </ul>
     </div>
-         
+          
 						
 				</span>
 				
@@ -231,4 +233,4 @@
 	  </div>
 	</body>
 </html>
-<!-- Stacey(2.3.0): 062288e17807271b283f25f8f848f6a0 -->
+<!-- Stacey(2.3.0): 695036af70bd878217bca964f4405ff8 -->
