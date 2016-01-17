@@ -1,6 +1,0 @@
-name: M.Davis Courses
--
-profession:
--
-email: 
-<davisgom@lcc.edu>
