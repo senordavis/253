@@ -1,0 +1,42 @@
+siteurl: //mdavis.in/253
+-
+course-title: ARTS 253 - Graphic Design Branding
+-
+semester: Spring Semester 2015
+-
+crn: 21350 
+-
+author: Mike Davis
+-
+phone: 517-803-2295
+-
+office-hours: Mondays and Wednesdays from 5pm to 6pm
+-
+description: ARTS 253 - Graphic Design Branding, is an advanced course involving effective design in branding, media marketing, the use of strategic planning for marketing campaigns, and the creation of persuasive and promotional 2 and 3 dimensional design collateral. Exploring the designer’s role in large project organization is the focus. The class will explore integrated corporate identity programs within media campaigns and includes contemporary design and multimedia techniques and tools.
+
+Students will work through the entire design process from concept, to aspects of prepress production and client presentation. The emphasis of the course is on the student’s ability to evaluate the branding and marketing needs of design clients and come up with appropriate and innovative design solutions.
+
+-
+email:
+<davisgom@lcc.edu>
+-
+body-class: home
+-
+printheader: <header class="visible-print"><img src="@siteurl/assets/images/253PrintHeader.jpg" alt="ARTS 253 Header" class="img-responsive" /></header>
+-
+courselink-home: https://d2l.lcc.edu/d2l/home/95722
+-
+courselink-start: https://d2l.lcc.edu/d2l/le/content/95722/Home?itemIdentifier=D2L.LE.Content.ContentObject.ModuleCO-2303221
+-
+courselink-content: https://d2l.lcc.edu/d2l/le/content/95722/Home
+-
+courselink-calendar: https://d2l.lcc.edu/d2l/le/calendar/95722
+-
+courselink-dropbox: https://d2l.lcc.edu/d2l/lms/dropbox/dropbox.d2l?ou=95722
+-
+courselink-grades: https://d2l.lcc.edu/d2l/lms/grades/index.d2l?ou=95722
+-
+courselink-syllabus: https://d2l.lcc.edu/d2l/le/content/95722/viewContent/2303305/View
+-
+welcome-message-link: https://d2l.lcc.edu/d2l/le/content/95722/viewContent/2303304/View
+-
