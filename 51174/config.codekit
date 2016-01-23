@@ -111,6 +111,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/253projectIcon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 124815,
+		"inputAbbreviatedPath": "\/assets\/images\/253projectIcon.png",
+		"outputAbbreviatedPath": "\/assets\/images\/253projectIcon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/arts253-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -316,17 +327,6 @@
 		"initialSize": 65646,
 		"inputAbbreviatedPath": "\/assets\/images\/PrintHeader.jpg",
 		"outputAbbreviatedPath": "\/assets\/images\/PrintHeader.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/projectIcon.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 21329,
-		"inputAbbreviatedPath": "\/assets\/images\/projectIcon.jpg",
-		"outputAbbreviatedPath": "\/assets\/images\/projectIcon.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1112,7 +1112,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "253-51174",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "\/assets\/images\/projectIcon.jpg"
+	"iconImageName": "\/assets\/images\/253projectIcon.png"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 1,
