@@ -6889,8 +6889,16 @@ a {
   text-decoration: none;
   text-decoration: underline;
 }
+.marshmallows {
+  background: url("../images/marshmallow-bowl.png") center -186px no-repeat;
+  background-attachment: fixed;
+  min-height: 60px;
+  z-index: 500;
+  position: fixed;
+  width: 100%;
+}
 .brand-bg {
-  background: url("../images/253Background.jpg") center -156px no-repeat;
+  background: url("../images/253Background.jpg") center -186px no-repeat;
   background-color: #D5E0E4;
   background-attachment: fixed;
 }
