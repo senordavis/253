@@ -6889,6 +6889,9 @@ a {
   text-decoration: none;
   text-decoration: underline;
 }
+#weekly-intro .duedate {
+  color: #BA2348;
+}
 .marshmallows {
   background: url("../images/marshmallow-bowl.png") center -186px no-repeat;
   background-attachment: fixed;
