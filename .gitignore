@@ -2,3 +2,9 @@
 *.codekit
 
 .DS_Store
+
+*.codekit3
+
+51174/config.codekit3
+
+71972/config.codekit3
